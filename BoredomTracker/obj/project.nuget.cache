@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sKNuOp3a54HoLgJ5KBvH7bHCR99b8XLIrPEV1SwJiTl8eHuVuYfdVWn/vWqaw4zDawDUf+jSI3a8qSNdd6Zg6w==",
+  "dgSpecHash": "kcAlMzSj/QCVP9U1s3WlkWKGJsH5IRJDPKBoN/6/hm5vFUzc3JubWivWv6Twk6NJ8q3c0MnAwyODyh9cl/56UA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kimeru\\source\\repos\\BoredomTracker\\BoredomTracker\\BoredomTracker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kimeru\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

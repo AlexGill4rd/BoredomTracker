@@ -5,6 +5,23 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>icobored.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="button-image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icobored.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="button-image.png" />
+  </ItemGroup>
 
 </Project>

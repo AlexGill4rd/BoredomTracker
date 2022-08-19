@@ -1,0 +1,1 @@
+{"TotalBoredom":"00:03:08.5227193","Bored":false,"BoredomStarted":"2022-08-19T14:48:37.7509936+02:00"}

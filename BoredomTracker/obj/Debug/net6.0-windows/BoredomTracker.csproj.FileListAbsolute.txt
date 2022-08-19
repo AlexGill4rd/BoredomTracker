@@ -19,3 +19,8 @@ C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-wind
 C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\BoredomTracker.pdb
 C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\BoredomTracker.genruntimeconfig.cache
 C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\ref\BoredomTracker.dll
+C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\InfoPanel.g.cs
+C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\InfoPanel.baml
+C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\BoredomTracker.csproj.CopyComplete
+C:\Users\Kimeru\source\repos\BoredomTracker\BoredomTracker\obj\Debug\net6.0-windows\BoredomTracker_Content.g.cs

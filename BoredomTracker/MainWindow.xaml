@@ -5,12 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BoredomTracker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="70" Width="100" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" SizeToContent="Manual" Topmost="True">
+        Title="MainWindow" 
+        Height="90" Width="120" 
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None" ResizeMode="NoResize" 
+        SizeToContent="Manual" 
+        AllowsTransparency="True"
+        Topmost="True" MouseDown="Window_MouseDown">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.05" Color="White"/>
+    </Window.Background>
     <Grid>
-        <StackPanel Height="50" VerticalAlignment="Center" Margin="0,20,0,0" HorizontalAlignment="Stretch">
-            <Button Content="Start" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="0,0,0,0" Height="20"/>
-            <Button Content="Stop" Height="20" Margin="0,10,0,0" />
+        <StackPanel Height="50" VerticalAlignment="Center" Margin="0,20,0,0" HorizontalAlignment="Stretch" Width="100">
+            <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="0,0,0,0" Height="20" Foreground="White" Cursor="Hand" Click="btnStart_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/button-image.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnStop" Content="Stop" Height="20" Margin="0,10,0,0" Foreground="White" Cursor="Hand" Click="btnStop_Click" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/button-image.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
         </StackPanel>
-        <Button Content="X" HorizontalAlignment="Center" VerticalAlignment="Top" Width="18" Height="18" FontSize="9" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button x:Name="btnClose" Content="X" HorizontalAlignment="Center" VerticalAlignment="Top" Width="18" Height="18" FontSize="9" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" Click="btnClose_Click"/>
+        <Button x:Name="btnInfo" Content="?" HorizontalAlignment="Left" VerticalAlignment="Top" Width="18" Height="18" FontSize="9" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" Margin="3,0,0,0" Click="btnInfo_Click"/>
     </Grid>
 </Window>
